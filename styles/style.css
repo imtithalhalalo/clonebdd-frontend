@@ -122,7 +122,7 @@ body {
   top: 0;
   left: 0;
   background-color: black;
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .back-img {
@@ -140,25 +140,76 @@ body {
   display: flex;
   flex-direction: column;
 }
-.box{
+.box {
   display: flex;
   flex-wrap: wrap;
   background-image: url("/images/video.jpg");
-  background-size: 100%;
+  background-size: cover;
   padding-top: 24%;
   padding-bottom: 24%;
   justify-content: center;
   width: 100%;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-repeat: no-repeat;
   background-position: top center;
   position: relative;
 }
-.btn > img{
+.btn > img {
   height: 30px;
-} 
-.hover-black:hover{
-  opacity: .9;
+}
+.hover-black:hover {
+  opacity: 0.9;
+}
+
+/* Join */
+.services {
+  display: flex;
+}
+
+.company-join-image {
+  padding-right: 2vh;
+  height: 330px;
+}
+
+.company-join-services {
+  display: flex;
+}
+
+.service-part {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  margin-right: 20px;
+  border-radius: 0.35rem;
+  align-items: center;
+  text-align: center;
+  background-color: #f3f3f3f1;
+  background-image: url("/images/play.png");
+  box-shadow: 0px 4px 15px 0px rgb(0 0 0 / 6%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+.service-desc li {
+  color: #646464;
+  font-weight: 500;
+  font-family: "TheMixSemiBold";
+}
+
+.download {
+  position: absolute;
+  right: 0px;
+  width: 600px;
+  padding: 10px;
+  text-align: right;
+}
+.download-image {
+  position: absolute;
+  right: 0px;
+  padding: 10px;
 }
 /* Utilities */
 .container-1 {
@@ -192,7 +243,7 @@ h3 {
   margin-top: 1rem;
 }
 
-.mb-1{
+.mb-1 {
   margin-bottom: 2.5rem;
 }
 h5 {
@@ -218,7 +269,12 @@ h5 {
   background-color: #0078be;
   text-transform: uppercase;
 }
-
+.small-size {
+  font-size: 0.6rem;
+}
+.grey {
+  color: grey;
+}
 .color-grey {
   background-color: #f5f5f5;
   color: #f5f5f5;
