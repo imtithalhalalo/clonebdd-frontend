@@ -323,6 +323,10 @@ body {
   text-align: center;
 }
 
+.academy p{
+  font-size: 1.15rem;
+}
+
 /* Words */
 .sec{
   width: 33.3%;
