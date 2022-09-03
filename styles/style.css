@@ -126,13 +126,20 @@ body {
 }
 
 .back-img {
-  background-image: url("/images/parallax.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: scroll;
   filter: grayscale(30%);
   position: relative;
+}
+
+.parallax{
+  background-image: url("/images/parallax.jpg");
+}
+
+.parallax-light{
+  background-image: url("/images/parallax-light.jpg");
 }
 
 .explore {
@@ -211,6 +218,57 @@ body {
   right: 0px;
   padding: 10px;
 }
+
+/* Prefered */
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.prefered{
+  width: 100%;
+}
+.number{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: inherit;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 5vh;
+  height: 5vh;
+  -webkit-text-stroke-width: 2px;
+  font-family: Black;
+  font-size: 7vh;
+  font-weight: 200;
+  color: transparent !important;
+}
+.number-green{
+  -webkit-text-stroke-color: #00802d;
+}
+
+.number-pink{
+  -webkit-text-stroke-color: #e13870;
+}
+
+.number-blue{
+  -webkit-text-stroke-color: #0078be;
+}
+
+.number-green-bright{
+  -webkit-text-stroke-color: #009a9e;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2px;
+  padding-right: 2px;
+  width:25%;
+  align-items: center;
+}
 /* Utilities */
 .container-1 {
   padding: 0 12vh;
@@ -229,16 +287,35 @@ body {
   display: flex;
   justify-content: center;
 }
-h3 {
+
+.container-4{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+h3, h6, h5 {
   text-align: center;
   font-weight: 800;
   color: #212121;
-  font-size: 2rem;
   width: 100%;
   text-transform: uppercase;
   margin: 0 auto;
 }
+h3{
+  font-size: 2rem;
+}
+h6 {
+  font-size: 0.95rem;
+}
 
+h5 {
+  font-size: 1.25rem;
+}
 .mt-1 {
   margin-top: 1rem;
 }
@@ -246,13 +323,10 @@ h3 {
 .mb-1 {
   margin-bottom: 2.5rem;
 }
-h5 {
-  text-align: center;
-  color: #212121;
-  font-size: 1.25rem;
-  font-weight: 800;
-  text-transform: uppercase;
+.mb-2{
+  margin-bottom: 1.5rem;
 }
+
 .btn {
   text-align: center;
   vertical-align: middle;
