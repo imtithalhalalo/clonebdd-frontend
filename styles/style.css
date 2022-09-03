@@ -142,6 +142,11 @@ body {
   background-image: url("/images/parallax-light.jpg");
 }
 
+.parallax-7 {
+  background-image: url("/images/parallax-7.jpg");
+}
+
+
 .explore {
   width: 60%;
   display: flex;
@@ -299,6 +304,25 @@ body {
   width: 100%;
   border-top: 1px solid #e3e3e3;
 }
+/* Academy */
+.academy-programs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10vw;
+  color: #fff;
+  font-weight: bold;
+}
+
+.academy{
+  width: 40%;
+  margin-right: 20px;
+}
+.program{
+  width: 20%;
+  text-align: center;
+}
+
 /* Utilities */
 .container-1 {
   padding: 0 12vh;
