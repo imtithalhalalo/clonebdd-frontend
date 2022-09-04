@@ -1,2 +1,2 @@
 # clonebdd-frontend
-HTML - CSS - Home Page BDD
+HTML - CSS - Home Page BDD - Responsive
