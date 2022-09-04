@@ -16,8 +16,12 @@
     <!-- Start Hero -->
     <div class="hero container-1">
       <!-- Start Navigation Bar -->
-      <nav class="nav-bar ">
+      <nav class="nav-bar">
         <img width="80px" src="./images/logo-light.png" alt="Logo Image" />
+        <input id="toggle" type="checkbox" />
+        <label class="btn-container" for="toggle">
+          <div class="nav-btn"></div>
+        </label>
         <ul class="links flex-container">
           <li>Discover BDD</li>
           <li>Our Products & Services</li>
@@ -289,7 +293,7 @@
               </div>
             </div>
           </div>
-          <div class="column-2">
+          <div class="column-2 display-none">
             <div class="trend-box">
               <img src="/images/iterviews.png" alt="Iterviews" width="100%" />
               <div class="info-sec">
@@ -515,7 +519,7 @@
               <li class="mt-4">
                 <b class="grey">Download our mobile app</b>
                 <br />
-                <div class="mt-2">
+                <div class="mt-2 column-join">
                   <a
                     href="https://apps.apple.com/lb/app/bdd-app/id1238617908"
                     target="_blank"
