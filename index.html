@@ -7,15 +7,18 @@
     <title>BDD | Co-working Space in Lebanon</title>
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="icon" type="image/x-icon" href="./images/logo-light.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <!-- Start Hero -->
     <div class="hero container-1">
       <!-- Start Navigation Bar -->
-      <nav class="nav-bar">
+      <nav class="nav-bar ">
         <img width="80px" src="./images/logo-light.png" alt="Logo Image" />
-        <ul class="links">
+        <ul class="links flex-container">
           <li>Discover BDD</li>
           <li>Our Products & Services</li>
           <li>Events</li>
@@ -39,9 +42,9 @@
 
     <!-- Start Foundations Section -->
     <section class="color-grey container-2">
-      <div class="foundations">
-        <h3 class="align-center">BDD is built on five solid foundations</h3>
-        <div class="boxes mobile">
+      <h3 class="align-center mb-2">BDD is built on five solid foundations</h3>
+      <div class="row">
+        <div class="column">
           <div class="foundation-box hover-blue">
             <img src="./images/1.png" alt="" height="80" />
             <h5 class="mt-1">Community</h5>
@@ -52,6 +55,8 @@
               decision makers with entrepreneurs.
             </p>
           </div>
+        </div>
+        <div class="column">
           <div class="foundation-box hover-brighter-green">
             <img src="./images/2.png" alt="" height="80" />
             <h5 class="mt-1">Sharing Economy</h5>
@@ -61,6 +66,8 @@
               innovative tools and applications.
             </p>
           </div>
+        </div>
+        <div class="column">
           <div class="foundation-box hover-green">
             <img src="./images/5.png" alt="" height="80" />
             <h5 class="mt-1">Smart Design</h5>
@@ -70,6 +77,8 @@
               the latest technological solutions.
             </p>
           </div>
+        </div>
+        <div class="column">
           <div class="foundation-box hover-yellow">
             <img src="./images/3.png" alt="" height="80" />
             <h5 class="mt-1">Sustainability</h5>
@@ -80,6 +89,8 @@
               rating.
             </p>
           </div>
+        </div>
+        <div class="column">
           <div class="foundation-box hover-pink">
             <img src="./images/4.png" alt="" height="80" />
             <h5 class="mt-1">Social Well Being</h5>
@@ -115,54 +126,62 @@
     <!-- Start Join Section -->
     <section class="container-2">
       <h3 class="align-center mb-1">Join BDD</h3>
-      <div class="services">
+      <div class="column-join">
         <div class="company-join-image">
           <img src="./images/join-bdd.png" alt="Join BDD" width="400px" />
         </div>
-        <div class="company-join-services">
-          <div class="service-part">
-            <h5 class="mt-1 mb-1">Private offices</h5>
-            <ul class="service-desc mb-1">
-              <li class="mb-1">Ready to move in offices for startups</li>
-              <li class="mb-1">
-                Customizable offices for medium to large companies
-              </li>
-              <li class="mb-1">
-                Investment opportunities in premium commercial real estate
-              </li>
-            </ul>
-            <button class="btn mt-1 small-size">Know More</button>
+        <div class="row">
+          <div class="col">
+            <div class="service-part">
+              <h5 class="mt-1 mb-1">Private offices</h5>
+              <ul class="service-desc mb-1">
+                <li class="mb-1">Ready to move in offices for startups</li>
+                <li class="mb-1">
+                  Customizable offices for medium to large companies
+                </li>
+                <li class="mb-1">
+                  Investment opportunities in premium commercial real estate
+                </li>
+              </ul>
+              <button class="btn mt-1 small-size">Know More</button>
+            </div>
           </div>
-          <div class="service-part">
-            <h5 class="mt-1 mb-1">Membership plans to our hot desks</h5>
-            <ul class="service-desc mb-1">
-              <li class="mb-1">Day and weekly passes</li>
-              <li class="mb-1">The Smart Starter</li>
-              <li class="mb-1">The Happy Committer</li>
-              <li class="mb-1">The Dedicated</li>
-            </ul>
-            <button class="btn mt-1 small-size">Know More</button>
+          <div class="col">
+            <div class="service-part">
+              <h5 class="mt-1 mb-1">Membership plans to our hot desks</h5>
+              <ul class="service-desc mb-1">
+                <li class="mb-1">Day and weekly passes</li>
+                <li class="mb-1">The Smart Starter</li>
+                <li class="mb-1">The Happy Committer</li>
+                <li class="mb-1">The Dedicated</li>
+              </ul>
+              <button class="btn mt-1 small-size">Know More</button>
+            </div>
           </div>
-          <div class="service-part">
-            <h5 class="mt-1 mb-1">Meeting & Event Spaces</h5>
-            <ul class="service-desc mb-1">
-              <li class="mb-1">
-                Four fully equipped meeting rooms, up to 12 people
-              </li>
-              <li class="mb-1">One closed event space, up to 250 people</li>
-              <li class="mb-1">3 Training rooms, 30-50 people each</li>
-              <li class="mb-1">Rooftop</li>
-              <li class="mb-1">Garden</li>
-            </ul>
-            <button class="btn mt-1 small-size">Know More</button>
+          <div class="col">
+            <div class="service-part">
+              <h5 class="mt-1 mb-1">Meeting & Event Spaces</h5>
+              <ul class="service-desc mb-1">
+                <li class="mb-1">
+                  Four fully equipped meeting rooms, up to 12 people
+                </li>
+                <li class="mb-1">One closed event space, up to 250 people</li>
+                <li class="mb-1">3 Training rooms, 30-50 people each</li>
+                <li class="mb-1">Rooftop</li>
+                <li class="mb-1">Garden</li>
+              </ul>
+              <button class="btn mt-1 small-size">Know More</button>
+            </div>
           </div>
-          <div class="service-part">
-            <h5 class="mt-1 mb-1">Virtual Offices</h5>
-            <ul class="service-desc mb-1">
-              <li class="mb-1">Bussiness Address</li>
-              <li class="mb-1">Business Address Plus</li>
-            </ul>
-            <button class="btn mt-1 small-size">Know More</button>
+          <div class="col">
+            <div class="service-part">
+              <h5 class="mt-1 mb-1">Virtual Offices</h5>
+              <ul class="service-desc mb-1">
+                <li class="mb-1">Bussiness Address</li>
+                <li class="mb-1">Business Address Plus</li>
+              </ul>
+              <button class="btn mt-1 small-size">Know More</button>
+            </div>
           </div>
         </div>
       </div>
@@ -194,46 +213,55 @@
     <section class="align-center back-img parallax-light container-4">
       <div class="prefered">
         <h3 class="mb-1">BDD is the preferred hub for:</h3>
-        <div class="row">
-          <div class="column align-center">
-            <img
-              src="/images/home_community.png"
-              alt="Home Community"
-              width="80"
-              class="mb-2"
-            />
-            <span class="number number-green-bright">1500 +</span>
-            <h6>Community Members</h6>
+        <div class="row-4">
+          <div class="column">
+            <div class="prefer-box">
+              <img
+                src="/images/home_community.png"
+                alt="Home Community"
+                width="80"
+                class="mb-2"
+              />
+              <span class="number number-green-bright">1500 +</span>
+              <h6>Community Members</h6>
+            </div>
           </div>
-          <div class="column align-center">
-            <img
-              src="/images/home_events.png"
-              alt="Home Events"
-              width="80"
-              class="mb-2"
-            />
-            <span class="number number-pink">700 +</span>
-            <h6>Events per Year</h6>
+          <div class="column">
+            <div class="prefer-box">
+              <img
+                src="/images/home_events.png"
+                alt="Home Events"
+                width="80"
+                class="mb-2"
+              />
+              <span class="number number-pink">700 +</span>
+              <h6>Events per Year</h6>
+            </div>
           </div>
-          <div class="column align-center">
-            <img
-              src="/images/home_support.png"
-              alt="Home Support"
-              width="80"
-              class="mb-2"
-            />
-            <span class="number number-blue">140 +</span>
-            <h6>SMEs and Support Organizations</h6>
+
+          <div class="column">
+            <div class="prefer-box">
+              <img
+                src="/images/home_support.png"
+                alt="Home Support"
+                width="80"
+                class="mb-2"
+              />
+              <span class="number number-blue">140 +</span>
+              <h6>SMEs and Support Organizations</h6>
+            </div>
           </div>
-          <div class="column align-center">
-            <img
-              src="/images/home_vc.png"
-              alt="Home VC"
-              width="80"
-              class="mb-2"
-            />
-            <span class="number number-green">60 %</span>
-            <h6>of Beirut's venture capital funds & accelerators</h6>
+          <div class="column">
+            <div class="prefer-box">
+              <img
+                src="/images/home_vc.png"
+                alt="Home VC"
+                width="80"
+                class="mb-2"
+              />
+              <span class="number number-green">60 %</span>
+              <h6>of Beirut's venture capital funds & accelerators</h6>
+            </div>
           </div>
         </div>
       </div>
@@ -244,38 +272,48 @@
       <div class="trend">
         <h3 class="align-center mb-1">What's Trending</h3>
         <div class="row">
-          <div class="trend-box">
-            <img src="/images/community-1.jpeg" alt="Community" width="100%" />
-            <div class="info-sec">
-              <h6 class="mt-2 mb-1">
-                BDD Launches <br />"3alam Bi Dour Hawaleik"
-              </h6>
-              <div class="dash"></div>
-              <p>by Beirut Digital District</p>
-              <p>on June 18, 2022</p>
+          <div class="column-2">
+            <div class="trend-box">
+              <img
+                src="/images/community-1.jpeg"
+                alt="Community"
+                width="100%"
+              />
+              <div class="info-sec">
+                <h6 class="mt-2 mb-1">
+                  BDD Launches <br />"3alam Bi Dour Hawaleik"
+                </h6>
+                <div class="dash"></div>
+                <p>by Beirut Digital District</p>
+                <p>on June 18, 2022</p>
+              </div>
             </div>
           </div>
-          <div class="trend-box">
-            <img src="/images/iterviews.png" alt="Iterviews" width="100%" />
-            <div class="info-sec">
-              <h6 class="mt-2 mb-1">
-                Overcome Interview Jitters With These Tips
-              </h6>
-              <div class="dash"></div>
-              <p>by Beirut Digital District</p>
-              <p>on June 28, 2022</p>
+          <div class="column-2">
+            <div class="trend-box">
+              <img src="/images/iterviews.png" alt="Iterviews" width="100%" />
+              <div class="info-sec">
+                <h6 class="mt-2 mb-1">
+                  Overcome Interview Jitters With These Tips
+                </h6>
+                <div class="dash"></div>
+                <p>by Beirut Digital District</p>
+                <p>on June 28, 2022</p>
+              </div>
             </div>
           </div>
-          <div class="trend-box">
-            <img src="/images/technology.png" alt="Tech" width="100%" />
-            <div class="info-sec">
-              <h6 class="mt-2 mb-3">
-                Are You Addicted To Tech? Tools To Assess Your Smartphone Usage
-                & Curb
-              </h6>
-              <div class="dash"></div>
-              <p>by Beirut Digital District</p>
-              <p>on June 28, 2022</p>
+          <div class="column-2 display-none">
+            <div class="trend-box">
+              <img src="/images/technology.png" alt="Tech" width="100%" />
+              <div class="info-sec">
+                <h6 class="mt-2 mb-3">
+                  Are You Addicted To Tech? Tools To Assess Your Smartphone
+                  Usage & Curb
+                </h6>
+                <div class="dash"></div>
+                <p>by Beirut Digital District</p>
+                <p>on June 28, 2022</p>
+              </div>
             </div>
           </div>
         </div>
@@ -288,16 +326,16 @@
     <!-- Start  Academy Section-->
     <section class="back-img parallax-7 container-4">
       <div class="trend">
-        <div class="programs-container">
-          <div class="academy-programs">
-            <div class="academy">
-              <img src="/images/logo-academy.png" alt="Logo" width="100" />
-              <p class="color-white">
-                Providing programs to bridge the gap between the existing
-                education providers and the long-term requirements of the job
-                market.
-              </p>
-            </div>
+        <div class="academy-programs">
+          <div class="academy">
+            <img src="/images/logo-academy.png" alt="Logo" width="100" />
+            <p class="color-white">
+              Providing programs to bridge the gap between the existing
+              education providers and the long-term requirements of the job
+              market.
+            </p>
+          </div>
+          <div class="programs">
             <div class="program">
               <div class="align-center">
                 <img src="/images/10.png" alt="Youth Track" width="100" />
@@ -331,19 +369,21 @@
     <!-- End  Academy Section-->
     <!-- Start Word Section -->
     <section class="background-reverse container-4">
-      <div class="sec">
-        <h3>A few words from our community</h3>
-      </div>
-      <div class="sec">
-        <div class="container-2 border">
-          <img class="mb-2" src="/images/member1.jpg" alt="" width="30%" />
-          <h6>Testimonial: BDD x CME</h6>
+      <div class="academy-programs">
+        <div class="sec">
+          <h3>A few words from our community</h3>
         </div>
-      </div>
-      <div class="sec">
-        <div class="container-2 border">
-          <img class="mb-2" src="/images/member2.jpg" alt="" width="30%" />
-          <h6>Testimonial: BDD x Live Live Beirut</h6>
+        <div class="sec">
+          <div class="container-2 border">
+            <img class="mb-2" src="/images/member1.jpg" alt="" width="30%" />
+            <h6>Testimonial: BDD x CME</h6>
+          </div>
+        </div>
+        <div class="sec display-none">
+          <div class="container-2 border">
+            <img class="mb-2" src="/images/member2.jpg" alt="" width="30%" />
+            <h6>Testimonial: BDD x Live Live</h6>
+          </div>
         </div>
       </div>
     </section>
@@ -367,7 +407,9 @@
                 >
               </li>
               <li>
-                <a href="https://beirutdigitaldistrict.com/our-story">Our Story</a>
+                <a href="https://beirutdigitaldistrict.com/our-story"
+                  >Our Story</a
+                >
               </li>
               <li>
                 <a href="https://beirutdigitaldistrict.com/community-members"
@@ -375,7 +417,9 @@
                 >
               </li>
               <li>
-                <a href="https://beirutdigitaldistrict.com/partners">Partners</a>
+                <a href="https://beirutdigitaldistrict.com/partners"
+                  >Partners</a
+                >
               </li>
             </ul>
           </div>
@@ -411,39 +455,52 @@
             <ul class="list-style color-white">
               <li><a href="https://beirutdigitaldistrict.com/blog">Blog</a></li>
               <li>
-                <a href="https://beirutdigitaldistrict.com/upcoming-events"
-                  >Events</a
-                >
+                <p>
+                  <a href="https://beirutdigitaldistrict.com/upcoming-events"
+                    >Events</a
+                  >
+                </p>
               </li>
               <li>
-                <a href="https://beirutdigitaldistrict.com/bdd-academy"
-                  >BDD Academy</a
-                >
+                <p>
+                  <a href="https://beirutdigitaldistrict.com/bdd-academy"
+                    >BDD Academy</a
+                  >
+                </p>
               </li>
               <li>
-                <a href="https://beirutdigitaldistrict.com/in-the-news"
-                  >In the News</a
-                >
+                <p>
+                  <a href="https://beirutdigitaldistrict.com/in-the-news"
+                    >In the News</a
+                  >
+                </p>
               </li>
               <li>
-                <a href="https://beirutdigitaldistrict.com/work-with-us"
-                  >Work with us</a
-                >
+                <p>
+                  <a href="https://beirutdigitaldistrict.com/work-with-us"
+                    >Work with us</a
+                  >
+                </p>
               </li>
               <li>
-                <a href="https://beirutdigitaldistrict.com/get-in-touch"
-                  >Get in Touch</a
-                >
+                <p>
+                  <a href="https://beirutdigitaldistrict.com/get-in-touch"
+                    >Get in Touch</a
+                  >
+                </p>
               </li>
             </ul>
           </div>
+
           <div class="subscribe-box">
-            <h6 class="color-grey-bright mb-2">Subscribe to our mailing list</h6>
+            <h6 class="color-grey-bright mb-2">
+              Subscribe to our mailing list
+            </h6>
             <form action="">
               <input class="input" type="text" placeholder="Enter" />
               <button class="btn">Subscribe</button>
             </form>
-    
+
             <ul class="list-style">
               <li>
                 <i class="fa fa-envelope-o color-blue"></i>
@@ -501,34 +558,46 @@
 
         <div class="end">
           <div class="split">
-            <p class="grey"><small>© 2020 Beirut Digital District. By  <a href="http://webneoo.com" target="_blank">Webneoo</a></small></p>
+            <p class="grey">
+              <small
+                >© 2020 Beirut Digital District. By
+                <a href="http://webneoo.com" target="_blank">Webneoo</a></small
+              >
+            </p>
           </div>
           <div class="split social">
             <ul class="list-style row-2">
               <li class="mr-1">
-                <a href="https://www.facebook.com/BeirutDigitalD" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                <a
+                  href="https://www.facebook.com/BeirutDigitalD"
+                  target="_blank"
+                  ><i class="fa fa-facebook fa-lg"></i
+                ></a>
               </li>
               <li class="mr-1">
-                <a href="https://www.instagram.com/beirutdigitald/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+                <a
+                  href="https://www.instagram.com/beirutdigitald/"
+                  target="_blank"
+                  ><i class="fa fa-instagram fa-lg"></i
+                ></a>
               </li>
               <li class="mr-1">
-                <a href="https://twitter.com/BeirutDigitalD" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="https://twitter.com/BeirutDigitalD" target="_blank"
+                  ><i class="fa fa-twitter fa-lg"></i
+                ></a>
               </li>
               <li class="mr-1">
-                <a href="https://www.linkedin.com/company/beirut-digital-district/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a
+                  href="https://www.linkedin.com/company/beirut-digital-district/"
+                  target="_blank"
+                  ><i class="fa fa-linkedin fa-lg"></i
+                ></a>
               </li>
             </ul>
           </div>
-          
         </div>
       </div>
-      
-      
-
-      
-      
     </footer>
     <!-- End Footer -->
-
   </body>
 </html>

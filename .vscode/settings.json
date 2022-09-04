@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "livePreview.defaultPreviewPath": "c:\\Users\\U1\\Desktop\\clonebdd-frontend\\index.html"
 }
